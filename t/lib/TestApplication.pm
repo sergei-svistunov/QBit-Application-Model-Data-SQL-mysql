@@ -11,7 +11,7 @@ __PACKAGE__->config_opts(
 );
 
 use QBit::Application::Model::DB::mysql accessor  => 'db';
-use TestApplication::Model::Users accessor        => 'users';
 use TestApplication::Model::UserContacts accessor => 'user_contacts';
+use TestApplication::Model::Users accessor        => 'users';
 
 TRUE;
